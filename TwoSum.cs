@@ -4,7 +4,19 @@ using System.Collections.Generic;
 public class TwoSum
 {
     //https://leetcode.com/problems/two-sum/
-    
+
+    // var TwoSum = new TwoSum();
+    // var answer = TwoSum.Option2(new int[] { 3, 2, 4 }, 6);
+    // Helper.PrintArray(answer);
+
+    // Console.WriteLine("");
+
+    // var answer1 = TwoSum.Option2(new int[] { 2, 7, 11, 15 }, 17);
+    // Helper.PrintArray(answer1);
+
+    // var answer2 = TwoSum.Option2(new int[] { 3,3 }, 17);
+    // Helper.PrintArray(answer1);
+
     public int[] Option1(int[] nums, int target)
     {
         var answer = new int[2];
